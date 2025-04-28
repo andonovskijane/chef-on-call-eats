@@ -10,7 +10,7 @@ const chefData = [
   {
     id: 1,
     name: "Марија Ј.",
-    image: "https://images.unsplash.com/photo-1583394293214-28ded15ee548?auto=format&fit=crop&q=80&w=600",
+    image: "/lovable-uploads/324e31ba-1e0f-4ddf-806f-f9b149b25f1e.png",
     specialties: ["Македонска", "Домашна"],
     rating: 4.8,
     distance: "1.2 км",
