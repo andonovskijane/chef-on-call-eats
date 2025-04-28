@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import Header from '@/components/Header';
@@ -11,7 +10,7 @@ import { Badge } from '@/components/ui/badge';
 const chef = {
   id: 1,
   name: "Марија Јовановска",
-  image: "https://images.unsplash.com/photo-1583394293214-28ded15ee548?auto=format&fit=crop&q=80&w=600",
+  image: "/lovable-uploads/1d3042d6-4b33-4a4b-9ffb-6973729f8f8c.png",
   coverImage: "https://images.unsplash.com/photo-1495521821757-a1efb6729352?auto=format&fit=crop&q=80&w=800",
   bio: "Дипломиран готвач со 10 години искуство во традиционална македонска кујна. Специјализирана за домашни јадења по семејни рецепти.",
   rating: 4.8,
@@ -26,7 +25,7 @@ const chef = {
       name: "Тавче Гравче",
       description: "Традиционално македонско јадење со бел грав и зачини.",
       price: 250,
-      image: "https://images.unsplash.com/photo-1625944525533-473f1c3bd154?auto=format&fit=crop&q=80&w=600",
+      image: "/lovable-uploads/1d3042d6-4b33-4a4b-9ffb-6973729f8f8c.png",
       popular: true
     },
     {
