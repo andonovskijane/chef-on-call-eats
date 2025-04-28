@@ -25,11 +25,11 @@ const ChefCard: React.FC<ChefCardProps> = ({
 }) => {
   return (
     <Link to={`/chef/${id}`} className="chef-card block">
-      <div className="relative h-48 overflow-hidden">
+      <div className="relative h-48 overflow-hidden pt-2">
         <img
           src={image}
           alt={`Chef ${name}`}
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover object-center"
         />
         <div className="absolute bottom-0 left-0 w-full bg-gradient-to-t from-black/70 to-transparent p-3">
           <div className="flex items-center justify-between">
