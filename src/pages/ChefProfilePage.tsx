@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import Header from '@/components/Header';
@@ -10,7 +11,7 @@ import { Badge } from '@/components/ui/badge';
 const chef = {
   id: 1,
   name: "Марија Јовановска",
-  image: "/lovable-uploads/1d3042d6-4b33-4a4b-9ffb-6973729f8f8c.png",
+  image: "/lovable-uploads/324e31ba-1e0f-4ddf-806f-f9b149b25f1e.png",
   coverImage: "https://images.unsplash.com/photo-1495521821757-a1efb6729352?auto=format&fit=crop&q=80&w=800",
   bio: "Дипломиран готвач со 10 години искуство во традиционална македонска кујна. Специјализирана за домашни јадења по семејни рецепти.",
   rating: 4.8,
