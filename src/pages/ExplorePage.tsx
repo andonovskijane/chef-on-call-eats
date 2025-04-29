@@ -15,7 +15,7 @@ const chefData = [
     rating: 4.8,
     distance: "1.2 км",
     deliveryTime: "35-45 мин",
-    imagePosition: "center 20%" // Adjusted to show face better
+    imagePosition: "center 10%" // Adjusted to focus on face
   },
   {
     id: 2,
@@ -25,7 +25,7 @@ const chefData = [
     rating: 4.6,
     distance: "2.5 км",
     deliveryTime: "40-50 мин",
-    imagePosition: "center 5%" // Adjusted to show face better
+    imagePosition: "center 0%" // Moved to top to show face better
   },
   {
     id: 3,
@@ -35,7 +35,7 @@ const chefData = [
     rating: 4.9,
     distance: "3.1 км",
     deliveryTime: "45-55 мин",
-    imagePosition: "center 15%" // Adjusted to show face better
+    imagePosition: "center 5%" // Adjusted to focus on face
   },
   {
     id: 4,
@@ -45,7 +45,7 @@ const chefData = [
     rating: 4.7,
     distance: "4.0 км",
     deliveryTime: "50-60 мин",
-    imagePosition: "center 10%" // Adjusted to show face better
+    imagePosition: "center 0%" // Moved to top to show face better
   }
 ];
 
