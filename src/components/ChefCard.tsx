@@ -12,6 +12,7 @@ interface ChefCardProps {
   rating: number;
   distance: string;
   deliveryTime: string;
+  imagePosition?: string; // Optional prop for custom image positioning
 }
 
 const ChefCard: React.FC<ChefCardProps> = ({
@@ -22,6 +23,7 @@ const ChefCard: React.FC<ChefCardProps> = ({
   rating,
   distance,
   deliveryTime,
+  imagePosition = 'center 30%', // Default position that works well for most face shots
 }) => {
   return (
     <Link to={`/chef/${id}`} className="chef-card block">
@@ -29,7 +31,8 @@ const ChefCard: React.FC<ChefCardProps> = ({
         <img
           src={image}
           alt={`Chef ${name}`}
-          className="w-full h-full object-cover object-top"
+          className="w-full h-full object-cover"
+          style={{ objectPosition: imagePosition }}
         />
         <div className="absolute bottom-0 left-0 w-full bg-gradient-to-t from-black/70 to-transparent p-3">
           <div className="flex items-center justify-between">

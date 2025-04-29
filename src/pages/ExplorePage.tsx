@@ -5,7 +5,7 @@ import SearchBar from '@/components/SearchBar';
 import FilterChips from '@/components/FilterChips';
 import ChefCard from '@/components/ChefCard';
 
-// Mock data
+// Mock data with image positions
 const chefData = [
   {
     id: 1,
@@ -14,7 +14,8 @@ const chefData = [
     specialties: ["Македонска", "Домашна"],
     rating: 4.8,
     distance: "1.2 км",
-    deliveryTime: "35-45 мин"
+    deliveryTime: "35-45 мин",
+    imagePosition: "center 40%" // Custom position to show face better
   },
   {
     id: 2,
@@ -23,7 +24,8 @@ const chefData = [
     specialties: ["Италијанска", "Паста"],
     rating: 4.6,
     distance: "2.5 км",
-    deliveryTime: "40-50 мин"
+    deliveryTime: "40-50 мин",
+    imagePosition: "center 15%" // Adjusted position for this specific image
   },
   {
     id: 3,
@@ -32,7 +34,8 @@ const chefData = [
     specialties: ["Веганска", "Здрава"],
     rating: 4.9,
     distance: "3.1 км",
-    deliveryTime: "45-55 мин"
+    deliveryTime: "45-55 мин",
+    imagePosition: "center 25%" // Adjusted position for this specific image
   },
   {
     id: 4,
@@ -41,7 +44,8 @@ const chefData = [
     specialties: ["Азиска", "Суши"],
     rating: 4.7,
     distance: "4.0 км",
-    deliveryTime: "50-60 мин"
+    deliveryTime: "50-60 мин",
+    imagePosition: "center 20%" // Adjusted position for this specific image
   }
 ];
 
@@ -80,6 +84,7 @@ const ExplorePage: React.FC = () => {
               rating={chef.rating}
               distance={chef.distance}
               deliveryTime={chef.deliveryTime}
+              imagePosition={chef.imagePosition}
             />
           ))}
         </div>
